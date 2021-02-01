@@ -1,21 +1,8 @@
-package OOP;
+package OOPSeparateMainClass;
 
-public class basic { //basic class.(EMPLOYEE)
-
-    int employerID;
-    String employerName;
-    int departmentNo;
-    String job;
-
-    void display(){ //VOID =method is not returning any output (Display value)
-        System.out.println(employerID);
-        System.out.println(employerName);
-        System.out.println(departmentNo);
-        System.out.println(job);
-    }
-
-    public static void main(String[] args) { //main method
-        basic employer01 = new basic();  //creating an Object
+public class EmployerMain {
+    public static void main(String[] args) {
+        Employer employer01 = new Employer();  //creating an Object
 
         //adding values to object variables
         employer01.employerID=134;
@@ -26,7 +13,7 @@ public class basic { //basic class.(EMPLOYEE)
         employer01.display(); //displaying employer1 object values
 
         //--------------------second object------------------------------------
-        basic employer02 = new basic();    //creating the Object 02
+        Employer employer02 = new Employer();    //creating the Object 02
 
         //adding values to object variables
         employer02.employerID=104;
@@ -36,5 +23,4 @@ public class basic { //basic class.(EMPLOYEE)
 
         employer02.display();              //displaying employer2 object values
     }
-
 }
