@@ -8,6 +8,8 @@ Overloading Rules
 
  */
 
+import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
+
 public class MethodOverloading {
 
     int x,y;
@@ -31,6 +33,12 @@ public class MethodOverloading {
         return(x+z);
     }
 
+    void main(){
+
+        //Main method can be Overload. But the Definition should be different
+        System.out.println("This is a Main Method");
+    }
+
     public static void main(String[] args) {
 
         MethodOverloading methodExample = new MethodOverloading();
@@ -39,6 +47,6 @@ public class MethodOverloading {
         System.out.println(methodExample.addition(100,200));  //executing method 2
         System.out.println(methodExample.addition(100,34.7)); //executing method 3
 
-
+        methodExample.main();
     }
 }
