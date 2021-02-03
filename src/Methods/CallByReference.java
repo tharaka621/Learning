@@ -5,7 +5,7 @@ package Methods;
 public class CallByReference {
     int x;
 
-    public void addition(CallByReference a){ //"a" is the new object
+    public void addition(CallByReference a){ //"a" is the new object , "CallByReference" is the expected class object
         x = a.x+5;  //extract the value from the new "a" object
         //System.out.println(x);
     }
