@@ -17,12 +17,15 @@ public class TwoClassWithMain {
         System.out.println(TwoClass.a);
         TwoClass.method1();
 
+        //=============================================
         TwoClass example1 = new TwoClass();
+
         System.out.println(example1.b);
         example1.method2();
 
 
         example1.method3();
+
     }
 
 
