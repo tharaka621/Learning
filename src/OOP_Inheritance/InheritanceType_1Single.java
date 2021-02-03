@@ -1,6 +1,6 @@
 package OOP_Inheritance;
 
-class A //parent class
+class A1 //parent class
 {
     int a;
     void display(){
@@ -8,7 +8,7 @@ class A //parent class
     }
 }
 
-class B extends A //Child Class
+class B1 extends A1 //Child Class
 {
     int b;
     void print(){
@@ -19,12 +19,12 @@ class B extends A //Child Class
 public class InheritanceType_1Single {
     public static void main(String[] args) {
        //A only can perform A Properties
-        A example1 = new A();
+        A1 example1 = new A1();
         example1.a=100;
         example1.display();;
 
         //B can perform A and B both properties
-        B example2 = new B();
+        B1 example2 = new B1();
         example2.a=50;
         example2.b=200;
         example2.display();
