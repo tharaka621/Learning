@@ -14,8 +14,7 @@ there are five types of inheritance
 
     1 , 2 & 3 types can be make using "class" concept (1 class can not extend several parent classes)
     4 & 5 types can be make using "interface" concept
-
  */
-
 public class InheritanceDemo {
+
 }
