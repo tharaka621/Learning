@@ -14,7 +14,7 @@ public class MultipleCatch {
            // System.out.println(100/0);  // 100/0 >> ArithmeticException **********************
 
             String s = "Welcome";
-            int n = Integer.parseInt(s);  //Number Format Exception **************
+            int n = Integer.parseInt(s);  //Number
 
         }catch(ArithmeticException x){ //x is an any variable
             System.out.println("Arithmetic Exception is occurred...... and Handle Successfully.... ");
