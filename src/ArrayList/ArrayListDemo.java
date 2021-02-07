@@ -11,7 +11,7 @@ ArrayList can overcome these problems
 **************************************************
  */
 
-import java.util.ArrayList; //import ArrayList  
+import java.util.ArrayList; //import ArrayList  **
 
 public class ArrayListDemo {
     public static void main(String[] args) {
