@@ -21,7 +21,7 @@ public class InheritanceType_1Single {
        //A only can perform A Properties
         A1 example1 = new A1();
         example1.a=100;
-        example1.display();;
+        example1.display();
 
         //B can perform A and B both properties
         B1 example2 = new B1();
