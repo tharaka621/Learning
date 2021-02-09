@@ -10,7 +10,7 @@ public class HashMapDemo {
 
         //pair = key , value
         //adding pairs to HashMap (Use 'put' method)
-        exampleHashMap.put(134,"Tharaka0");
+        exampleHashMap.put(134,"Tharaka");
         exampleHashMap.put(100,"Sarah");
         exampleHashMap.put(111,"Eminem");
         exampleHashMap.put(199,"Lewa");
